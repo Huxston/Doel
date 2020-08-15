@@ -1,0 +1,222 @@
+canvas {
+	
+}
+
+body {
+	font-family: Century Gothic;
+	margin: 0;
+	background-color: #3A667F;
+	font-size: 2vw;
+	text-align:justify;
+}
+
+
+.canvas-wrap canvas, .title, .menu-wrapper{
+	position: absolute;
+}
+
+.title{	
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 10% auto 10%;
+	grid-template-rows: 30% auto auto 30%;
+	grid-gap: 0px 0px;
+	justify-items: center;
+	align-items: stretch;
+	grid-template-areas: 
+		". . ."
+		". logo ."
+		". slogan ."
+		". . . ";
+}
+
+.logo-wrap{
+	height: 70%;
+	align-self: end;
+	grid-area: logo;
+	
+}
+
+.logo-flex{
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.h2-slogan{
+	height: 50%;
+	align-self:  start;
+	grid-area: slogan;
+	
+}
+
+.menu-wrapper{
+	width: 100%;
+	height: 11%;
+}
+
+.menu{
+	
+	height: 100%;
+	width: 100%;
+	
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.menu-item{
+	height: 100%;
+	width: 35%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:rgba(255,255,255,1);
+}
+
+.menu-item:hover {
+	background-color:rgba(194,226,211,0.75);;
+	
+}
+
+
+.how-wrapper{
+	height: 100%;
+	
+	display: grid;
+	grid-template-columns: 10% auto auto 10%;
+	grid-template-rows: 30% auto 30%;
+	justify-items: center;
+	align-items: center;
+	grid-template-areas: 
+		". . . ."
+		". img text ."
+		". . . .";
+
+	
+	padding-top: 20%;
+	padding-bottom: 20%
+}
+
+.chipImg{
+	grid-area: img;
+}
+
+.how-text{
+	grid-area: text;
+}
+
+.buy-wrapper{
+	height: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	padding-top: 15%;
+	padding-bottom: 15%
+}
+
+
+
+.login-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
+	padding-bottom: 15%
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+label{
+	font-size: 1.2vw;
+	margin-bottom: 3%;
+}
+
+input[type="text"] {
+	padding: 3%;
+}
+
+input[type="submit"] {
+	height: 6%;
+}
+
+.login-text{
+	font-size: 1vw;
+}
+
+.loggedin-wrapper{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
+	padding-bottom: 15%
+}
+
+.welcome{
+	margin:0;
+	padding-bottom: 2%;
+}
+.found{
+	padding-bottom: 2%;
+}
+
+.map{
+	width: 100%;
+}
+
+h1{
+	font-family: Polsku;
+	font-size: 7vw;
+}
+
+h2{
+	font-size: 5vw;
+}
+
+a{
+	font-size: 2vw;
+	color: black;
+	text-decoration: none;
+}
+
+
+.logo{
+	width: 20%;
+	height: 20%;
+}
+
+.chip{
+	width:80%;
+}
+
+.pet{
+	width: 100%;
+	
+}
+
+.logo-header{
+	width: 15%;
+	height: 15%;
+	padding-left: 45%;
+	padding-right: 45%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	
+}
+
+
+
